@@ -40,7 +40,7 @@ dependências.
 .. toctree::
    :maxdepth: 1
 
-   admin/index
+..   admin/index
    auth
    comments/index
    contenttypes
@@ -48,11 +48,11 @@ dependências.
    databrowse
    flatpages
    formtools/index
-   gis/index
+..   gis/index
    humanize
    localflavor
-   markup
-   messages
+..   markup
+..   messages
    redirects
    sitemaps
    sites

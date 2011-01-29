@@ -39,4 +39,4 @@ ele funciona "por baixo dos panos".
    committers
    release-process
    deprecation
-   svn
+..   svn

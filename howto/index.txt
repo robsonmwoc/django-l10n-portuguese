@@ -28,7 +28,7 @@ entanto, estes guias irão ajudá-lo a realizar rapidamente tarefas comuns.
    :maxdepth: 1
    
    apache-auth
-   auth-remote-user
+..   auth-remote-user
    custom-management-commands
    custom-model-fields
    custom-template-tags

@@ -170,7 +170,7 @@ Quando estiver brincando com sua subclasse de :class:`~django.db.models.Field`,
 primeiro reflita um pouco sobre a classe :class:`~django.db.models.Field` 
 existente, sua nova classe é muito semelhante a ela. Você consegue estender um
 campo existente do Django e poupar um pouco de trabalho? Se não, você deve
-estender a classe :class:`~django.db.models.Field`d, a partir da qual todas
+estender a classe :class:`~django.db.models.Field`, a partir da qual todas
 descendem.
 
 Inicializar o seu novo campo é uma questão de separar os argumentos que são
