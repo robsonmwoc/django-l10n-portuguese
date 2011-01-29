@@ -58,14 +58,14 @@ Primeiros passos
 ================
 
     * **From scratch:**
-      :doc:`Overview <intro/overview>` |
-      :doc:`Installation <intro/install>`
+      :doc:`Visão geral <intro/overview>` |
+      :doc:`Instalação <intro/install>`
 
     * **Tutorial:**
-      :doc:`Part 1 <intro/tutorial01>` |
-      :doc:`Part 2 <intro/tutorial02>` |
-      :doc:`Part 3 <intro/tutorial03>` |
-      :doc:`Part 4 <intro/tutorial04>`
+      :doc:`Parte 1 <intro/tutorial01>` |
+      :doc:`Parte 2 <intro/tutorial02>` |
+      :doc:`Parte 3 <intro/tutorial03>` |
+      :doc:`Parte 4 <intro/tutorial04>`
 
 A camada do modelo
 ==================
@@ -76,161 +76,161 @@ A camada do modelo
       :doc:`Meta opções <ref/models/options>`
 
     * **QuerySets:**
-      :doc:`Executing queries <topics/db/queries>` |
-      :doc:`QuerySet method reference <ref/models/querysets>`
+      :doc:`Executando consultas <topics/db/queries>` |
+      :doc:`Referência do QuerySet <ref/models/querysets>`
 
     * **Model instances:**
-      :doc:`Instance methods <ref/models/instances>` |
-      :doc:`Accessing related objects <ref/models/relations>`
+      :doc:`Métodos de instância <ref/models/instances>` |
+      :doc:`Acessando objetos relacionados <ref/models/relations>`
 
-    * **Advanced:**
+    * **Avaçado:**
       :doc:`Managers <topics/db/managers>` |
-      :doc:`Raw SQL <topics/db/sql>` |
-      :doc:`Transactions <topics/db/transactions>` |
-      :doc:`Aggregation <topics/db/aggregation>` |
-      :doc:`Custom fields <howto/custom-model-fields>` |
-      :doc:`Multiple databases <topics/db/multi-db>`
+      :doc:`SQL puro <topics/db/sql>` |
+      :doc:`Transações <topics/db/transactions>` |
+      :doc:`Agregação <topics/db/aggregation>` |
+      :doc:`Campos personalizados <howto/custom-model-fields>` |
+      :doc:`Múltiplos banco de dados <topics/db/multi-db>`
 
-    * **Other:**
-      :doc:`Supported databases <ref/databases>` |
-      :doc:`Legacy databases <howto/legacy-databases>` |
-      :doc:`Providing initial data <howto/initial-data>` |
-      :doc:`Optimize database access <topics/db/optimization>`
+    * **Outros:**
+      :doc:`Bancos de dados suportados <ref/databases>` |
+      :doc:`Bancos de dados legado <howto/legacy-databases>` |
+      :doc:`Fornecendo dados iniciais <howto/initial-data>` |
+      :doc:`Otimizando acesso ao banco de dados <topics/db/optimization>`
 
-The template layer
-==================
+A camada de template
+====================
 
-    * **For designers:**
-      :doc:`Syntax overview <topics/templates>` |
-      :doc:`Built-in tags and filters <ref/templates/builtins>`
+    * **Para designers:**
+      :doc:`Visão geral da sintaxe <topics/templates>` |
+      :doc:`Tags e filtros embutidos <ref/templates/builtins>`
 
-    * **For programmers:**
-      :doc:`Template API <ref/templates/api>` |
-      :doc:`Custom tags and filters <howto/custom-template-tags>`
+    * **Para programadores:**
+      :doc:`API de template <ref/templates/api>` |
+      :doc:`Tags e filtros personalizados <howto/custom-template-tags>`
 
-The view layer
-==============
+A camada view
+=============
 
-    * **The basics:**
+    * **O básico:**
       :doc:`URLconfs <topics/http/urls>` |
-      :doc:`View functions <topics/http/views>` |
+      :doc:`Funções view <topics/http/views>` |
       :doc:`Shortcuts <topics/http/shortcuts>`
 
-    * **Reference:**  :doc:`Request/response objects <ref/request-response>`
+    * **Referência:**  :doc:`Request/response objects <ref/request-response>`
 
-    * **File uploads:**
-      :doc:`Overview <topics/http/file-uploads>` |
-      :doc:`File objects <ref/files/file>` |
-      :doc:`Storage API <ref/files/storage>` |
-      :doc:`Managing files <topics/files>` |
-      :doc:`Custom storage <howto/custom-file-storage>`
+    * **Upload de arquivos:**
+      :doc:`Visão geral <topics/http/file-uploads>` |
+      :doc:`Objetos de arquivo <ref/files/file>` |
+      :doc:`API de armazenamento <ref/files/storage>` |
+      :doc:`Gerenciando arquivos <topics/files>` |
+      :doc:`Armazenamento personalizado <howto/custom-file-storage>`
 
     * **Generic views:**
-      :doc:`Overview<topics/generic-views>` |
-      :doc:`Built-in generic views<ref/generic-views>`
+      :doc:`Visão geral <topics/generic-views>` |
+      :doc:`Generic views nativas<ref/generic-views>`
 
-    * **Advanced:**
-      :doc:`Generating CSV <howto/outputting-csv>` |
-      :doc:`Generating PDF <howto/outputting-pdf>`
+    * **Avançado:**
+      :doc:`Gerando CSV <howto/outputting-csv>` |
+      :doc:`Gerando PDF <howto/outputting-pdf>`
 
     * **Middleware:**
-      :doc:`Overview <topics/http/middleware>` |
-      :doc:`Built-in middleware classes <ref/middleware>`
+      :doc:`Visão geral <topics/http/middleware>` |
+      :doc:`Classes middleware nativas <ref/middleware>`
 
-Forms
-=====
+Formulários
+===========
 
-    * **The basics:**
-      :doc:`Overview <topics/forms/index>` |
-      :doc:`Form API <ref/forms/api>` |
-      :doc:`Built-in fields <ref/forms/fields>` |
-      :doc:`Built-in widgets <ref/forms/widgets>`
+    * **O básico:**
+      :doc:`Visão geral <topics/forms/index>` |
+      :doc:`API de formulário <ref/forms/api>` |
+      :doc:`Campos nativos <ref/forms/fields>` |
+      :doc:`Widgets nativos <ref/forms/widgets>`
 
-    * **Advanced:**
-      :doc:`Forms for models <topics/forms/modelforms>` |
-      :doc:`Integrating media <topics/forms/media>` |
+    * **Avançado:**
+      :doc:`Formulários para models <topics/forms/modelforms>` |
+      :doc:`Integrando mídia <topics/forms/media>` |
       :doc:`Formsets <topics/forms/formsets>` |
-      :doc:`Customizing validation <ref/forms/validation>`
+      :doc:`Personalizando validação <ref/forms/validation>`
 
     * **Extras:**
       :doc:`Form preview <ref/contrib/formtools/form-preview>` |
       :doc:`Form wizard <ref/contrib/formtools/form-wizard>`
 
-The development process
-=======================
+O processo de desenvolvimento
+=============================
 
-    * **Settings:**
-      :doc:`Overview <topics/settings>` |
-      :doc:`Full list of settings <ref/settings>`
+    * **Configurações:**
+      :doc:`Visão geral <topics/settings>` |
+      :doc:`Lista completa de configurações <ref/settings>`
 
-    * **Exceptions:**
-      :doc:`Overview <ref/exceptions>`
+    * **Exceções:**
+      :doc:`Visão geral <ref/exceptions>`
 
     * **django-admin.py and manage.py:**
-      :doc:`Overview <ref/django-admin>` |
-      :doc:`Adding custom commands <howto/custom-management-commands>`
+      :doc:`Visão geral <ref/django-admin>` |
+      :doc:`Adicionando comandos personalizados <howto/custom-management-commands>`
 
-    * **Testing:**  :doc:`Overview <topics/testing>`
+    * **Testando:**  :doc:`Visão geral <topics/testing>`
 
-    * **Deployment:**
-      :doc:`Overview <howto/deployment/index>` |
+    * **Implantação:**
+      :doc:`Visão geral <howto/deployment/index>` |
       :doc:`Apache/mod_wsgi <howto/deployment/modwsgi>` |
       :doc:`Apache/mod_python <howto/deployment/modpython>` |
       :doc:`FastCGI/SCGI/AJP <howto/deployment/fastcgi>` |
-      :doc:`Apache authentication <howto/apache-auth>` |
-      :doc:`Serving static files <howto/static-files>` |
-      :doc:`Tracking code errors by e-mail <howto/error-reporting>`
+      :doc:`Autenticação do Apache <howto/apache-auth>` |
+      :doc:`Servindo arquivos estáticos <howto/static-files>` |
+      :doc:`Acompanhando erros de código por e-mail <howto/error-reporting>`
 
-Other batteries included
+Outras baterias inclusas
 ========================
 
     * :doc:`Admin site <ref/contrib/admin/index>` | :doc:`Admin actions <ref/contrib/admin/actions>` | :doc:`Admin documentation generator<ref/contrib/admin/admindocs>`
-    * :doc:`Authentication <topics/auth>`
-    * :doc:`Cache system <topics/cache>`
-    * :doc:`Conditional content processing <topics/conditional-view-processing>`
-    * :doc:`Comments <ref/contrib/comments/index>` | :doc:`Moderation <ref/contrib/comments/moderation>` | :doc:`Custom comments <ref/contrib/comments/custom>`
-    * :doc:`Content types <ref/contrib/contenttypes>`
-    * :doc:`Cross Site Request Forgery protection <ref/contrib/csrf>`
+    * :doc:`Autenticação <topics/auth>`
+    * :doc:`Sistema de cache <topics/cache>`
+    * :doc:`Processando conteúdo conditional <topics/conditional-view-processing>`
+    * :doc:`Commentários <ref/contrib/comments/index>` | :doc:`Moderação <ref/contrib/comments/moderation>` | :doc:`Comentários personalizado <ref/contrib/comments/custom>`
+    * :doc:`Tipos de conteúdo <ref/contrib/contenttypes>`
+    * :doc:`Proteção Cross Site Request Forgery <ref/contrib/csrf>`
     * :doc:`Databrowse <ref/contrib/databrowse>`
     * :doc:`E-mail (sending) <topics/email>`
     * :doc:`Flatpages <ref/contrib/flatpages>`
     * :doc:`GeoDjango <ref/contrib/gis/index>`
     * :doc:`Humanize <ref/contrib/humanize>`
-    * :doc:`Internationalization <topics/i18n/index>`
-    * :doc:`Jython support <howto/jython>`
+    * :doc:`Internacionalização <topics/i18n/index>`
+    * :doc:`Suporte Jython <howto/jython>`
     * :doc:`"Local flavor" <ref/contrib/localflavor>`
-    * :doc:`Messages <ref/contrib/messages>`
-    * :doc:`Pagination <topics/pagination>`
+    * :doc:`Mensagens <ref/contrib/messages>`
+    * :doc:`Paginação <topics/pagination>`
     * :doc:`Redirects <ref/contrib/redirects>`
-    * :doc:`Serialization <topics/serialization>`
+    * :doc:`Serialização <topics/serialization>`
     * :doc:`Sessions <topics/http/sessions>`
-    * :doc:`Signals <topics/signals>`
+    * :doc:`Sinais <topics/signals>`
     * :doc:`Sitemaps <ref/contrib/sitemaps>`
     * :doc:`Sites <ref/contrib/sites>`
     * :doc:`Syndication feeds (RSS/Atom) <ref/contrib/syndication>`
-    * :doc:`Unicode in Django <ref/unicode>`
-    * :doc:`Web design helpers <ref/contrib/webdesign>`
-    * :doc:`Validators <ref/validators>`
+    * :doc:`Unicode no Django <ref/unicode>`
+    * :doc:`Helpers para Web design <ref/contrib/webdesign>`
+    * :doc:`Validadores <ref/validators>`
 
-The Django open-source project
-==============================
+O projeto open-source do Django
+===============================
 
-    * **Community:**
-      :doc:`How to get involved <internals/contributing>` |
-      :doc:`The release process <internals/release-process>` |
-      :doc:`Team of committers <internals/committers>` |
-      :doc:`The Django source code repository <internals/svn>`
+    * **Comunidade:**
+      :doc:`Como envolver-se <internals/contributing>` |
+      :doc:`O processo de lançamento <internals/release-process>` |
+      :doc:`Time de committers <internals/committers>` |
+      :doc:`O repositório do código fonte do Django <internals/svn>`
 
-    * **Design philosophies:**
-      :doc:`Overview <misc/design-philosophies>`
+    * **Filosofia de design:**
+      :doc:`Visão geral <misc/design-philosophies>`
 
-    * **Documentation:**
-      :doc:`About this documentation <internals/documentation>`
+    * **Documentação:**
+      :doc:`Sobre esta documentação <internals/documentation>`
 
-    * **Third-party distributions:**
-      :doc:`Overview <misc/distributions>`
+    * **Distribuição de terceiros:**
+      :doc:`Visão geral <misc/distributions>`
 
-    * **Django over time:**
-      :doc:`API stability <misc/api-stability>` |
-      :doc:`Release notes and upgrading instructions <releases/index>` |
-      :doc:`Deprecation Timeline <internals/deprecation>`
+    * **Django ao longo do tempo:**
+      :doc:`Estabilidade de API <misc/api-stability>` |
+      :doc:`Notas de lançamento e instruções de atualização <releases/index>` |
+      :doc:`Linha do tempo de depreciação <internals/deprecation>`

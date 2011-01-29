@@ -287,9 +287,6 @@ adicionados o objeto resultante contém a união de media de ambos os arquivos::
 Media nos Forms
 ---------------
 
-Regardless of whether you define a media declaration, *all* Form objects
-have a media property. The default value for this property is the result
-of adding the media definitions for all widgets that are part of the form::
 Indiferente de você definir uma declaração media, *todos* os objetos Form
 possuem uma propriedade media. O valor padrão para esta propriedade é o
 resultado da soma das definições de media de todos os widgets que fazem parte do

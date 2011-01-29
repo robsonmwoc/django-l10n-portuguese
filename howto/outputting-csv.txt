@@ -1,7 +1,7 @@
 ..
 .. META INFORMATION OF TRANSLATION
 ..
-..   $TranslationStatus: In Progress $
+..   $TranslationStatus: Done, waiting for revision $
 ..   $OriginalRevision: 11348 $
 ..   $TranslationAuthors: Robson Mendonça $
 ..
@@ -26,9 +26,10 @@ dinamicamente usando views do Django.Para fazer isso, você pode utilizar a
 
 .. _biblioteca Python CSV: http://docs.python.org/library/csv.html
 
-Python comes with a CSV library, ``csv``. The key to using it with Django is
-that the ``csv`` module's CSV-creation capability acts on file-like objects, and
-Django's :class:`~django.http.HttpResponse` objects are file-like objects.
+O Python vem acompanhado de uma biblioteca CSV, 'csv. O segredo para usá-la com
+o Django é que a capacidade CSV-creation do módulo ``csv`` age sobre objetos do
+tipo arquivo, e os objetos da classe do Django 
+:class:`~django.http.HttpResponse` são do tipo arquivo.
 
 Usando a biblioteca Python CSV
 ==============================
@@ -101,8 +102,6 @@ Aqui vai um exemplo, que gera o mesmo arquivo CSV do outro exemplo::
         response = HttpResponse(mimetype='text/csv')
         response['Content-Disposition'] = 'attachment; filename=somefilename.csv'
 
-        # The data is hard-coded here, but you could load it from a database or
-        # some other source.
         # Aqui os dados estão embutidos no código, mas você poderia carregá-lo 
         # de um banco de dados ou de alguma outra fonte.
 
@@ -118,9 +117,9 @@ Aqui vai um exemplo, que gera o mesmo arquivo CSV do outro exemplo::
         response.write(t.render(c))
         return response
 
-This template is quite basic. It just iterates over the given data and displays
-a line of CSV for each row. It uses the :tfilter:`addslashes` template filter to
-ensure there aren't any problems with quotes.
+Este template é bem básico. Ele somente itera sobre os dados fornecidos e mostra
+uma linha do CSV de cada vez. Ele usa o filtro de template :tfilter:`addslashes`
+para assegurar que não ocorra nenhum problema com as aspas.
 
 A única diferença entre esse exemplo e o anterior, é que esse usa o carregador
 de templates em vez do módulo CSV. O resto do código -- tais como o

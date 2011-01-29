@@ -1154,8 +1154,8 @@ alguns métodos utilitários no módulo ``django.test.utils``.
     como remover a magia negra do sistema de templates e restaurar os serviços
     normais de e-mail.
 
-    The creation module of the database backend (``connection.creation``) also
-    provides some utilities that can be useful during testing.
+    O módulo de criação do backend do banco de dados (``connection.creation``)
+    também fornece algumas utilidades que podem ser úteis durante os testes.
 
 .. function:: create_test_db(verbosity=1, autoclobber=False)
 

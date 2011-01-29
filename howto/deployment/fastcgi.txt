@@ -1,7 +1,7 @@
 ..
 .. META INFORMATION OF TRANSLATION
 ..
-..   $TranslationStatus: In Progress $
+..   $TranslationStatus: Done, waiting for revision $
 ..   $OriginalRevision: 14363 $
 ..   $TranslationAuthors: Walter Cruz, Robson Mendonça $
 ..
@@ -137,13 +137,13 @@ Rodando um servidor preforked em um socket de domínio Unix::
 
     ./manage.py runfcgi method=prefork socket=/home/user/mysite.sock pidfile=django.pid
     
-.. admonition:: Socket security
+.. admonition:: Segurança de socket
 
-    Django's default umask requires that the webserver and the Django fastcgi
-    process be run with the same group **and** user. For increased security,
-    you can run them under the same group but as different users. If you do
-    this, you will need to set the umask to 0002 using the ``umask`` argument
-    to ``runfcgi``.
+    O umask padrão do Django requer que o servidor web e o processo fastcgi do
+    Django estejam rodando com o mesmo grupo **e** usuário. Para aumentar a 
+    segurança, você pode rodá-los sob o mesmo grupo mas com usuários diferentes.
+    Se você fizer isso, você precisará configurar o umask para 0002 usando o
+    argumento ``umask`` do ``runfcgi``.
 
 Executando sem o deamonizing (rodar em background) o processo (bom para
 debugging)::
@@ -397,10 +397,11 @@ facilmente usando o comando ``touch``::
 Servindo arquivos de mídia da administração
 ===========================================
 
-Regardless of the server and configuration you eventually decide to use, you
-will also need to give some thought to how to serve the admin media files. The
-advice given in the :ref:`modpython <serving-the-admin-files>` documentation
-is also applicable in the setups detailed above.
+Independentemente do servidor e configurações que você eventualmente decida
+usar, você também precisa especificar como os arquivos de mídia do admin serão
+servidos. O conselho dado na documentação 
+:ref:`modpython <serving-the-admin-files>` é também aplicável nas instalações
+detalhadas acima.
 
 Forçando o prefixo de URL para um valor em particular
 =====================================================

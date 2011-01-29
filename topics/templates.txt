@@ -371,8 +371,6 @@ usar herança é seguir a abordagem de três níveis:
       notícia ou entrada de blog. Estes templates estendem o template da seção 
       apropriada.
 
-This approach maximizes code reuse and makes it easy to add items to shared
-content areas, such as section-wide navigation.
 Esta abordagem maximiza o reuso de código e torna mais fácil adicionar ítens
 à áreas de conteúdo compartilhado, como num menu de navegação de uma seção.
 

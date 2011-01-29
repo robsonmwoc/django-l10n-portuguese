@@ -91,11 +91,6 @@ somente para leitura.
     Um objeto dicionário contendo todos os parametros passados por HTTP POST.
     Veja a documentação do ``QueryDict`` abaixo.
 
-    It's possible that a request can come in via POST with an empty ``POST``
-    dictionary -- if, say, a form is requested via the POST HTTP method but
-    does not include form data. Therefore, you shouldn't use ``if request.POST``
-    to check for use of the POST method; instead, use ``if request.method ==
-    "POST"`` (see above).
     É possível que um requisição POST possa vir com um dicionário POST vazio --
     se, digo, um formulário é requisitado via metodo HTTP POST mas não inclui
     dados. Portanto, você não deve usar ``if request.POST`` para checar o uso

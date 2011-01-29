@@ -218,20 +218,20 @@ documenta todas as views genéricas e todas suas opções detalhadamente. o rest
 desse documento irá considerar alguns meios comuns de customizar e estender as
 views genéricas.
 
-Extending generic views
-=======================
+Exetendendo generic views
+=========================
 
 .. highlightlang:: python
 
-There's no question that using generic views can speed up development
-substantially. In most projects, however, there comes a moment when the
-generic views no longer suffice. Indeed, the most common question asked by new
-Django developers is how to make generic views handle a wider array of
-situations.
+Não há constatação de que usar generic views aumente substancialmente a 
+velocidade do desenvolvimento. Na maioria dos projetos, entretanto, há um 
+momento em que as generic views são suficientes. De fato, a dúvida mais comum
+entre os novos desenvolvedores do Django é como fazer as generic views lidar com
+um grupo de situações mais amplo.
 
-Luckily, in nearly every one of these cases, there are ways to simply extend
-generic views to handle a larger array of use cases. These situations usually
-fall into a handful of patterns dealt with in the sections that follow.
+Felizmente, em quase todos esses casos, há formas de siplesmente extender as
+generic views para manipular um grupo maios de casos. Estas situações usualmente
+caem dentro de um punhado de padrões tratados com as seções seguintes.
 
 Making "friendly" template contexts
 -----------------------------------

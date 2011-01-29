@@ -27,8 +27,6 @@ seriador manipular qualquer formato (baseado em texto ou não).
 
 .. seealso::
 
-    If you just want to get some data from your tables into a serialized
-    form, you could use the :djadmin:`dumpdata` management command.
     Se você apenas quiser obter alguns dados de suas tabelas na forma seriada,
     você pode usar o comando :djadmin:`dumbdata`.
 

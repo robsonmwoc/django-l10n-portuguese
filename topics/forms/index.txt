@@ -272,9 +272,6 @@ parecer com isso::
        <li>Sender is required.</li>
    </ul>
 
-The list has a CSS class of ``errorlist`` to allow you to style its appearance.
-If you wish to further customize the display of errors you can do so by looping
-over them::
 A lista tem uma classe CSS ``errorlist`` para permitir que você mude sua
 aparência. Se você desejar personalizar a exibição dos erros, você pode fazê-lo
 iterando sobre eles::
